@@ -49,7 +49,7 @@ export function Navbar({
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-300 print-hide",
         scrolled || open
-          ? "border-b border-brass/25 bg-background/78 backdrop-blur-xl shadow-[0_8px_32px_rgba(228,188,114,0.08)]"
+          ? "border-b border-white/12 bg-background/82 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.28)]"
           : "bg-transparent",
       )}
     >

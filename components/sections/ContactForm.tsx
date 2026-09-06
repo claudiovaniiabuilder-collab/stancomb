@@ -181,7 +181,7 @@ export function ContactForm({ copy }: { copy: Dictionary["contact"] }) {
             <button
               type="submit"
               disabled={status === "sending"}
-              className="inline-flex min-h-12 items-center justify-center bg-brass px-6 text-ink shadow-[0_0_22px_rgba(228,188,114,0.28)] transition-colors hover:bg-brass-soft disabled:opacity-60"
+              className="inline-flex min-h-12 items-center justify-center bg-brass px-6 text-ink shadow-[0_0_16px_rgba(196,165,106,0.16)] transition-colors hover:bg-brass-soft disabled:opacity-60"
             >
               {status === "sending" ? copy.sending : copy.submit}
             </button>

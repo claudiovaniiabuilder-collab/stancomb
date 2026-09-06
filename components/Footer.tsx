@@ -29,7 +29,7 @@ export function Footer({
   const channels = getContactChannels();
 
   return (
-    <footer className="border-t border-brass/20 bg-[#141b24]/90 pb-24 lg:pb-10">
+    <footer className="border-t border-brass/20 bg-[#11171e]/90 pb-24 lg:pb-10">
       <Container className="py-14">
         <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>

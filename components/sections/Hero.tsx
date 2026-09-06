@@ -15,7 +15,7 @@ export async function Hero() {
         <div className="flex flex-col items-center text-center">
           <div className="relative mb-7">
             <div
-              className="pointer-events-none absolute inset-[-18%] -z-10 rounded-full bg-[radial-gradient(circle,rgba(228,188,114,0.48),rgba(126,231,255,0.12)_42%,transparent_70%)] blur-2xl"
+              className="pointer-events-none absolute inset-[-18%] -z-10 rounded-full bg-[radial-gradient(circle,rgba(196,165,106,0.16),rgba(126,231,255,0.06)_42%,transparent_70%)] blur-2xl"
               aria-hidden
             />
             <Logo className="relative mx-auto h-52 w-auto sm:h-64 lg:h-80" />
